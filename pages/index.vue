@@ -1,3 +1,3 @@
 <template>
-  <div>hello, ugly world</div>
+  <NavBar />
 </template>
