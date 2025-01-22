@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     "@nuxtjs/google-fonts",
     "@nuxtjs/tailwindcss",
     "@primevue/nuxt-module",
+    "@nuxtjs/supabase",
   ],
   googleFonts: {
     families: {
@@ -24,6 +25,16 @@ export default defineNuxtConfig({
           darkModeSelector: ".my-app-dark",
         },
       },
+    },
+  },
+  supabase: {
+    redirect: false,
+    redirectOptions: {
+      login: "/login",
+      callback: "/auth/callback",
+      include: undefined,
+      exclude: ["/"],
+      cookieRedirect: false,
     },
   },
 });
