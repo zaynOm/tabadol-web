@@ -1,10 +1,18 @@
 <script setup lang="ts">
-const { user } = useAuth();
+import { Button } from "primevue";
+
+const { user, signOut } = useAuth();
 const isDarkMode = ref(true);
+const op = ref();
+
 function toggleDarkMode() {
   document.documentElement.classList.toggle("my-app-dark");
   isDarkMode.value = !isDarkMode.value;
 }
+
+const togglePopover = (event: MouseEvent) => {
+  op.value.toggle(event);
+};
 </script>
 
 <template>
@@ -22,12 +30,23 @@ function toggleDarkMode() {
       </NuxtLink>
       <div v-else class="flex items-center">
         <!-- <span>{{ user.user_metadata.name }}</span> -->
-        <Avatar
-          :image="user.user_metadata.picture"
-          class="mr-2"
-          size="large"
-          shape="circle"
-        />
+        <Button as-child @click="togglePopover">
+          <Avatar
+            :image="user.user_metadata.picture"
+            class="mr-2 cursor-pointer"
+            size="large"
+            shape="circle"
+            @click="togglePopover"
+          />
+        </Button>
+        <Popover ref="op">
+          <Button
+            icon="pi pi-sign-out"
+            label="تسجيل الخروج"
+            @click="signOut"
+            severity="danger"
+          />
+        </Popover>
       </div>
     </div>
   </nav>
