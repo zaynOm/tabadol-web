@@ -11,9 +11,21 @@ importers:
       '@nuxtjs/google-fonts':
         specifier: ^3.2.0
         version: 3.2.0(magicast@0.3.5)(rollup@4.31.0)
+      '@primevue/themes':
+        specifier: ^4.2.5
+        version: 4.2.5
       nuxt:
         specifier: ^3.15.2
         version: 3.15.2(@parcel/watcher@2.5.0)(@types/node@22.10.7)(db0@0.2.1)(ioredis@5.4.2)(magicast@0.3.5)(rollup@4.31.0)(terser@5.37.0)(typescript@5.7.3)(vite@6.0.7(@types/node@22.10.7)(jiti@2.4.2)(terser@5.37.0)(yaml@2.7.0))(yaml@2.7.0)
+      primeicons:
+        specifier: ^7.0.0
+        version: 7.0.0
+      primevue:
+        specifier: ^4.2.5
+        version: 4.2.5(vue@3.5.13(typescript@5.7.3))
+      tailwindcss-primeui:
+        specifier: ^0.4.0
+        version: 0.4.0(tailwindcss@3.4.17)
       vue:
         specifier: latest
         version: 3.5.13(typescript@5.7.3)
@@ -24,6 +36,9 @@ importers:
       '@nuxtjs/tailwindcss':
         specifier: ^6.13.1
         version: 6.13.1(magicast@0.3.5)(rollup@4.31.0)
+      '@primevue/nuxt-module':
+        specifier: ^4.2.5
+        version: 4.2.5(@babel/parser@7.26.5)(magicast@0.3.5)(rollup@4.31.0)(vue@3.5.13(typescript@5.7.3))
 
 packages:
 

@@ -1,3 +1,5 @@
+import Aura from "@primevue/themes/aura";
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: "2024-11-01",
@@ -5,6 +7,7 @@ export default defineNuxtConfig({
   modules: [
     "@nuxtjs/google-fonts",
     "@nuxtjs/tailwindcss",
+    "@primevue/nuxt-module",
   ],
   googleFonts: {
     families: {
@@ -12,5 +15,15 @@ export default defineNuxtConfig({
       Cairo: true,
     },
   },
-  css: ["@/assets/css/main.css"],
+  css: ["@/assets/css/main.css", "primeicons/primeicons.css"],
+  primevue: {
+    options: {
+      theme: {
+        preset: Aura,
+        options: {
+          darkModeSelector: ".my-app-dark",
+        },
+      },
+    },
+  },
 });

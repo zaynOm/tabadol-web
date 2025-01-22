@@ -1,3 +1,7 @@
 body {
   font-family: "Alexandria", sans-serif;
 }
+
+.container {
+  @apply px-4 xl:px-6 2xl:px-4 mx-auto max-w-[1536px];
+}
