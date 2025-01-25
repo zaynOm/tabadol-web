@@ -1,0 +1,1089 @@
+{
+  "regions": [
+    {
+      "name": "Tanger-Tétouan-Al Hoceima",
+      "directions": [
+        {
+          "name": "Al Hoceima",
+          "communes": [
+            "Al Hoceima",
+            "Bni Bouayach",
+            "Imzouren",
+            "Targuist",
+            "Ajdir",
+            "Bni Boufrah",
+            "Bni Gmil",
+            "Ait Kamra",
+            "Ait Youssef Ou Ali",
+            "Bni Hadifa",
+            "Imrabten",
+            "Rouadi",
+            "Bni Ammart",
+            "Bni Bounsar",
+            "Sidi Boutmim",
+            "Abdelghaya Souahel",
+            "Bni Bouchibet",
+            "Issaguen",
+            "Ketama",
+            "Moulay Ahmed Cherif"
+          ]
+        },
+        {
+          "name": "Chefchaouen",
+          "communes": [
+            "Chefchaouen",
+            "Bab Berred",
+            "Tamorot",
+            "Bab Taza",
+            "Bni Faghloum",
+            "Fifi",
+            "Laghdir",
+            "Tanaqoub",
+            "Bni Ahmed Cherqia",
+            "Mansoura",
+            "Oued Malha",
+            "Bni Selmane",
+            "Steha",
+            "Tizgane",
+            "Amtar",
+            "Bni Rzine",
+            "Bni Smih",
+            "M'tioua",
+            "Ouaouzgane"
+          ]
+        },
+        {
+          "name": "Ouezzane",
+          "communes": [
+            "Ouezzane",
+            "Lamjaara",
+            "Masmouda",
+            "Sidi Ahmed Cherif",
+            "Sidi Bousber",
+            "Sidi Redouane",
+            "Teroual",
+            "Zghira",
+            "Ain Beida",
+            "Asjen",
+            "Brikcha",
+            "Moqrisset",
+            "Kalaat Bouqorra",
+            "Zoumi"
+          ]
+        },
+        {
+          "name": "Larache",
+          "communes": [
+            "Ksar El Kebir",
+            "Larache",
+            "Laouamra",
+            "Oulad Ouchih",
+            "Rissana Chamalia",
+            "Sahel"
+          ]
+        },
+        {
+          "name": "Tanger-Assilah",
+          "communes": [
+            "Assilah",
+            "Bni Makada",
+            "Charf-Mghogha",
+            "Charf-Souani",
+            "Tanger-Médina",
+            "Gueznaia",
+            "Sidi Lyamani",
+            "Had Al Gharbia"
+          ]
+        },
+        {
+          "name": "Tétouan",
+          "communes": [
+            "Oued Laou",
+            "Tétouan",
+            "Jbel Lahbib",
+            "Saddina",
+            "Souk Kdim",
+            "Al Hamra",
+            "Azla",
+            "Dar Bni Karrich",
+            "Zaitoune"
+          ]
+        },
+        {
+          "name": "M'diq-Fnideq",
+          "communes": ["Fnideq", "Martil", "M'Diq"]
+        },
+        {
+          "name": "Fahs-Anjra",
+          "communes": [
+            "Anjra",
+            "Jouamaa",
+            "Taghramt",
+            "Al Bahraoyine",
+            "Ksar Sghir",
+            "Malloussa"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Drâa-Tafilalet",
+      "directions": [
+        {
+          "name": "Midelt",
+          "communes": [
+            "Midelt",
+            "Er-rich",
+            "Aghbalou",
+            "Boumia",
+            "Tounfite",
+            "Itzer",
+            "Zaida",
+            "Gourrama",
+            "Guers Tiaallaline",
+            "Imilchil"
+          ]
+        },
+        {
+          "name": "Tinghir",
+          "communes": [
+            "Boumalne Dades",
+            "Kalaat M'Gouna",
+            "Tinghir",
+            "Alnif",
+            "H'Ssyia",
+            "Ait Hani",
+            "Assoul",
+            "Ait Sedrate Sahl El Gharbia",
+            "Ighil N'Oumgoun",
+            "Ikniouen",
+            "M'Semrir",
+            "Souk Lakhmis Dades",
+            "Taghzoute N'Ait Atta"
+          ]
+        },
+        {
+          "name": "Errachidia",
+          "communes": [
+            "Arfoud",
+            "Boudnib",
+            "Errachidia",
+            "Goulmima",
+            "Jorf",
+            "Moulay Ali Cherif",
+            "Tinejdad",
+            "Aoufous",
+            "Chorfa M'Daghra",
+            "Es-sfalat",
+            "Et-taous",
+            "Amellagou",
+            "Ferkla El Oulia",
+            "Melaab",
+            "Tadighoust"
+          ]
+        },
+        {
+          "name": "Ouarzazate",
+          "communes": [
+            "Ouarzazate",
+            "Taznakht",
+            "Ait Zineb",
+            "Ighrem N'Ougdal",
+            "Skoura Ahl El Oust",
+            "Tarmigt",
+            "Toundoute"
+          ]
+        },
+        {
+          "name": "Zagora",
+          "communes": [
+            "Agdz",
+            "Zagora",
+            "Afra",
+            "Mezguita",
+            "N'Kob",
+            "Oulad Yahia Lagraire",
+            "Taghbalte",
+            "Tamezmoute",
+            "Tazarine",
+            "Bni Zoli",
+            "Bouzeroual",
+            "Errouha",
+            "Ternata",
+            "Tinzouline",
+            "Fezouata",
+            "Ktaoua",
+            "M'Hamid El Ghizlane",
+            "Tagounite",
+            "Tamegroute"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fès-Meknès",
+      "directions": [
+        {
+          "name": "Boulemane",
+          "communes": [
+            "Boulemane",
+            "Imouzzer Marmoucha",
+            "Missour",
+            "Outat El Haj",
+            "El Mers",
+            "Enjil",
+            "Guigou",
+            "Skoura M'Daz",
+            "Ksabi Moulouya",
+            "El Orjane",
+            "Fritissa",
+            "Tissaf"
+          ]
+        },
+        {
+          "name": "Ifrane",
+          "communes": [
+            "Azrou",
+            "Ifrane",
+            "Ain Leuh",
+            "Oued Ifrane",
+            "Sidi El Makhfi",
+            "Timahdite"
+          ]
+        },
+        {
+          "name": "El Hajeb",
+          "communes": [
+            "Agourai",
+            "Ain Taoujdate",
+            "El Hajeb",
+            "Sabaa Aiyoun",
+            "Jahjouh",
+            "Ait Boubidmane",
+            "Bitit"
+          ]
+        },
+        {
+          "name": "Meknès",
+          "communes": [
+            "Meknès",
+            "Boufakrane",
+            "Toulal",
+            "Moulay Driss Zerhoun",
+            "Ouislane",
+            "Ain Jemaa",
+            "Ain Karma- Oued Rommane",
+            "Ait Ouallal",
+            "M'haya"
+          ]
+        },
+        {
+          "name": "Sefrou",
+          "communes": [
+            "Bhalil",
+            "El Menzel",
+            "Imouzzer Kandar",
+            "Ribate El Kheir",
+            "Sefrou",
+            "Ras Tabouda",
+            "Ain Cheggag"
+          ]
+        },
+        {
+          "name": "Moulay Yacoub",
+          "communes": [
+            "Moulay Yacoub",
+            "Ain Chkef",
+            "Sebaa Rouadi",
+            "Sebt Loudaya",
+            "Ain Kansra",
+            "Laajajra",
+            "Louadaine",
+            "Sidi Daoud"
+          ]
+        },
+        {
+          "name": "Fès",
+          "communes": [
+            "Agdal",
+            "Méchouar Fès Jdid",
+            "Saiss",
+            "Fès-Médina",
+            "Jnan El Ouard",
+            "El Mariniyine",
+            "Zouagha",
+            "Sidi Harazem"
+          ]
+        },
+        {
+          "name": "Taounate",
+          "communes": [
+            "Ghafsai",
+            "Karia Ba Mohamed",
+            "Taounate",
+            "Thar Es-souk",
+            "Tissa",
+            "Galaz",
+            "Ouartzagh",
+            "Ratba",
+            "Tafrant",
+            "Mkansa",
+            "Moulay Bouchta",
+            "Ain Mediouna",
+            "Bni Oulid",
+            "Bouhouda",
+            "Khlalfa",
+            "Ain Aicha",
+            "Ain Legdah",
+            "Ain Maatouf",
+            "Oulad Daoud",
+            "Outabouabane"
+          ]
+        },
+        {
+          "name": "Taza",
+          "communes": [
+            "Aknoul",
+            "Oued Amlil",
+            "Tahla",
+            "Taza",
+            "Ajdir",
+            "Tizi Ouasli",
+            "Bni Frassen",
+            "Bouchfaa",
+            "Oulad Zbair",
+            "Matmata",
+            "Zrarda",
+            "Bni Ftah",
+            "Msila",
+            "Tainaste",
+            "Bab Marzouka",
+            "Bni Lent"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Béni Mellal-Khénifra",
+      "directions": [
+        {
+          "name": "Azilal",
+          "communes": [
+            "Azilal",
+            "Demnate",
+            "Ait M'Hamed",
+            "Tabant",
+            "Bzou",
+            "Foum Jemaa",
+            "Moulay Aissa Ben Driss",
+            "Tanant",
+            "Ouaouizeght",
+            "Tagleft",
+            "Tilougguite",
+            "Afourar",
+            "Bni Ayat",
+            "Timoulilt",
+            "Tidili Fetouaka",
+            "Ouaoula"
+          ]
+        },
+        {
+          "name": "Fqih Ben Salah",
+          "communes": [
+            "Fquih Ben Salah",
+            "Ouled Ayad",
+            "Souk Sebt Ouled Nemma",
+            "Ouled Zmam",
+            "Sidi Aissa Ben Ali",
+            "Khalfia",
+            "Bni Oukil",
+            "Bradia",
+            "Hel Merbaa",
+            "Krifate",
+            "Dar Ould Zidouh",
+            "Had Boumoussa"
+          ]
+        },
+        {
+          "name": "Béni Mellal",
+          "communes": [
+            "Béni Mellal",
+            "El Ksiba",
+            "Kasba Tadla",
+            "Zaouiat Cheikh",
+            "Ouled M'Barek",
+            "Ouled Yaich",
+            "Sidi Jaber",
+            "Foum El Anceur",
+            "Aghbala",
+            "Tizi N'Isly",
+            "Dir El Ksiba",
+            "Taghzirt",
+            "Ouled Youssef",
+            "Ouled Said L'Oued"
+          ]
+        },
+        {
+          "name": "Khouribga",
+          "communes": [
+            "Bejaad",
+            "Boujniba",
+            "Hattane",
+            "Khouribga",
+            "Oued Zem",
+            "Bni Zrantel",
+            "Tachraft",
+            "Bir Mezoui",
+            "Bulanouare",
+            "Lagfaf",
+            "Maadna"
+          ]
+        },
+        {
+          "name": "Khénifra",
+          "communes": [
+            "Khenifra",
+            "M'Rirt",
+            "Ait Ishaq",
+            "El Kbab",
+            "Kerrouchen",
+            "Ouaoumana",
+            "Tighassaline",
+            "Sidi Lamine",
+            "Aguelmous",
+            "Had Bouhssoussen",
+            "Moulay Bouazza",
+            "Sebt Ait Rahou"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rabat-Salé-Kénitra",
+      "directions": [
+        {
+          "name": "Kénitra",
+          "communes": [
+            "Kénitra",
+            "Mehdya",
+            "Souk El Arbaa",
+            "Sidi Taibi",
+            "Ben Mansour",
+            "Arbaoua",
+            "Sidi Allal Tazi",
+            "Sidi Mohamed Lahmar",
+            "Lalla Mimouna",
+            "Moulay Bousselham"
+          ]
+        },
+        {
+          "name": "Sidi Kacem",
+          "communes": [
+            "Dar Gueddari",
+            "Had Kourt",
+            "Jorf El Melha",
+            "Mechraa Bel Ksiri",
+            "Sidi Kacem",
+            "Ain Dfali",
+            "Sidi Ameur Al Hadi",
+            "Al Haouafate",
+            "Khnichet",
+            "Oulad Nouel",
+            "Taoughilt",
+            "Zaggota",
+            "Zirara",
+            "Dar Laaslouji",
+            "Sidi Al Kamel"
+          ]
+        },
+        {
+          "name": "Sidi Slimane",
+          "communes": [
+            "Sidi Slimane",
+            "Sidi Yahya El Gharb",
+            "Kceibya",
+            "Dar Bel Amri",
+            "M'saada",
+            "Ouled H'Cine"
+          ]
+        },
+        {
+          "name": "Salé",
+          "communes": [
+            "Bab Lamrissa",
+            "Bettana",
+            "Hssaine",
+            "Layayda",
+            "Sidi Bouknadel",
+            "Tabriquet",
+            "Shoul",
+            "Ameur"
+          ]
+        },
+        {
+          "name": "Rabat",
+          "communes": [
+            "Agdal Riyad",
+            "El Youssoufia",
+            "Hassan",
+            "Souissi",
+            "Yacoub El Mansour"
+          ]
+        },
+        {
+          "name": "Skhirat-Témara",
+          "communes": [
+            "Ain El Aouda",
+            "Harhoura",
+            "Skhirate",
+            "Témara",
+            "Ain Attig",
+            "El Menzeh",
+            "Sidi Yahya Zaer",
+            "Mers El Kheir",
+            "Sabbah"
+          ]
+        },
+        {
+          "name": "Khémisset",
+          "communes": [
+            "Khémisset",
+            "Rommani",
+            "Tiflet",
+            "Sidi Allal El Bahraoui",
+            "Ait Yadine",
+            "Majmaa Tolba",
+            "Sidi Allal Lamsadder",
+            "Maaziz",
+            "Oulmes",
+            "Tiddas",
+            "Ain Sbit",
+            "Brachoua",
+            "Ezzhiliga",
+            "Laghoualem",
+            "M'qam Tolba",
+            "Sidi Abderrazak"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Casablanca-Settat",
+      "directions": [
+        {
+          "name": "Ben Slimane",
+          "communes": [
+            "Benslimane",
+            "Bouznika",
+            "El Mansouria",
+            "Ahlaf",
+            "Fdalate",
+            "Mellila",
+            "Ziaida",
+            "Sidi Bettache"
+          ]
+        },
+        {
+          "name": "Mohammédia",
+          "communes": [
+            "Mohammadia",
+            "Ain Harrouda",
+            "Bni Yakhlef",
+            "Ech-challalate",
+            "Sidi Moussa Ben Ali",
+            "Sidi Moussa Majdoub"
+          ]
+        },
+        {
+          "name": "Casablanca-Anfa",
+          "communes": ["Anfa", "El Maarif", "Sidi Belyout"]
+        },
+        {
+          "name": "Casablanca-El Fida-Mers Sultan",
+          "communes": ["Al-Fida", "Mers-Sultan", "Mechouar de Casablanca"]
+        },
+        {
+          "name": "Casablanca-Aïn Sebaâ",
+          "communes": ["Aîn-Sebaâ", "Assoukhour Assawda", "Hay Mohammadi"]
+        },
+        {
+          "name": "Casablanca-Aïn Chock",
+          "communes": ["Aîn-Chock"]
+        },
+        {
+          "name": "Casablanca-El Hay Hassani",
+          "communes": ["Hay-Hassani"]
+        },
+        {
+          "name": "Casablanca-Moulay Rachid",
+          "communes": ["Moulay Rachid", "Sidi Othmane"]
+        },
+        {
+          "name": "Casablanca-Sidi Bernoussi",
+          "communes": ["Sidi Bernoussi", "Sidi Moumen"]
+        },
+        {
+          "name": "Médiouna",
+          "communes": [
+            "Lahraouyine",
+            "Mediouna",
+            "Tit Mellil",
+            "Al Majjatia Oulad Taleb",
+            "Sidi Hajjaj Oued Hassar"
+          ]
+        },
+        {
+          "name": "Nouaceur",
+          "communes": [
+            "Bouskoura",
+            "Dar Bouazza",
+            "Nouaceur",
+            "Oulad Azzouz",
+            "Oulad Salah"
+          ]
+        },
+        {
+          "name": "Berrechid",
+          "communes": [
+            "Berrechid",
+            "Deroua",
+            "El Gara",
+            "Had Soualem",
+            "Oulad Abbou",
+            "Sidi Rahal Chatai",
+            "Laghnimyine",
+            "Sahel Oulad H'Riz",
+            "Oulad Ziyane",
+            "Ouled Zidane"
+          ]
+        },
+        {
+          "name": "El Jadida",
+          "communes": [
+            "Azemmour",
+            "El Jadida",
+            "Lbir Jdid",
+            "Chtouka",
+            "My Abdellah",
+            "Ouled Ghanem",
+            "Ouled Hcine",
+            "Mettouh",
+            "Ouled Frej",
+            "Sidi Smail"
+          ]
+        },
+        {
+          "name": "Sidi Bennour",
+          "communes": [
+            "Sidi Bennour",
+            "Zemamra",
+            "Bni Hilal",
+            "Laaounate",
+            "Oulad Amrane",
+            "Lgharbia",
+            "Loualidia",
+            "Saniat Berguig"
+          ]
+        },
+        {
+          "name": "Settat",
+          "communes": [
+            "Ben Ahmed",
+            "El Borouj",
+            "Loulad",
+            "Oulad M'Rah",
+            "Settat",
+            "Oulad Fares",
+            "Ras El Ain Chaouia",
+            "Bni Khloug",
+            "Dar Chaffai",
+            "Guisser",
+            "Oulad Said",
+            "Sidi El Aidi",
+            "Sidi Mohammed Ben Rahal"
+          ]
+        },
+        {
+          "name": "Ben M'Sick",
+          "communes": ["Ben M'Sick", "Sbata"]
+        }
+      ]
+    },
+    {
+      "name": "Oriental",
+      "directions": [
+        {
+          "name": "Figuig",
+          "communes": [
+            "Bouarfa",
+            "Figuig",
+            "Bni Tadjite",
+            "Bouanane",
+            "Talsint",
+            "Tendrara"
+          ]
+        },
+        {
+          "name": "Jerada",
+          "communes": ["Ain Bni Mathar", "Jerada", "Touissit", "Mrija"]
+        },
+        {
+          "name": "Taourirt",
+          "communes": ["Debdou", "El Aioun Sidi Mellouk", "Taourirt"]
+        },
+        {
+          "name": "Driouch",
+          "communes": [
+            "Ben Taieb",
+            "Driouch",
+            "Midar",
+            "Ain Zohra",
+            "Dar El Kebdani",
+            "Boudinar",
+            "Oulad Amghar",
+            "Tafersit",
+            "Temsamane",
+            "Trougout",
+            "Tsaft"
+          ]
+        },
+        {
+          "name": "Nador",
+          "communes": [
+            "Al Aaroui",
+            "Bni Ansar",
+            "Nador",
+            "Zaio",
+            "Zeghanghane",
+            "Ras El Ma",
+            "Selouane",
+            "Bni Chiker",
+            "Iaazzanene",
+            "Ihaddadene",
+            "Arekmane",
+            "Oulad Settout",
+            "Tiztoutine"
+          ]
+        },
+        {
+          "name": "Oujda",
+          "communes": ["Bni Drar", "Oujda"]
+        },
+        {
+          "name": "Berkane",
+          "communes": [
+            "Ahfir",
+            "Aklim",
+            "Berkane",
+            "Saidia",
+            "Sidi Slimane Echcharraa",
+            "Madagh"
+          ]
+        },
+        {
+          "name": "Guercif",
+          "communes": [
+            "Guercif",
+            "Barkine",
+            "Houara Oulad Raho",
+            "Lamrija",
+            "Saka",
+            "Mazguitam",
+            "Taddart"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Marrakech-Safi",
+      "directions": [
+        {
+          "name": "Safi",
+          "communes": [
+            "Safi",
+            "Jamaat Shaim",
+            "Sebt Gzoula",
+            "Bouguedra",
+            "Lamaachate",
+            "Ayir",
+            "Hrara"
+          ]
+        },
+        {
+          "name": "Essaouira",
+          "communes": [
+            "Ait Daoud",
+            "El Hanchane",
+            "Essaouira",
+            "Talmest",
+            "Tamanar",
+            "Aquermoud",
+            "Korimate",
+            "Tafetachte",
+            "Zaouiat Ben Hmida",
+            "Smimou"
+          ]
+        },
+        {
+          "name": "El Youssoufia",
+          "communes": [
+            "Echemmaia",
+            "Youssoufia",
+            "Ighoud",
+            "El Gantour",
+            "Ras El Ain"
+          ]
+        },
+        {
+          "name": "Rhamna",
+          "communes": [
+            "Ben Guerir",
+            "Sidi Bou Othmane",
+            "Bouchane",
+            "Labrikiyne",
+            "Skhour Rehamna",
+            "Lamharra",
+            "Nzalat Laadam",
+            "Ras Ain Rhamna"
+          ]
+        },
+        {
+          "name": "Kalaâ des Sraghna",
+          "communes": [
+            "El Kelaâ des Sraghna",
+            "Laattaouia",
+            "Sidi Rahhal",
+            "Tamallalt",
+            "Eddachra",
+            "El Aamria",
+            "Hiadna",
+            "Lounasda",
+            "Oulad Zarrad",
+            "Sidi Moussa",
+            "Assahrij",
+            "Fraita",
+            "Laatamna",
+            "Ouargui",
+            "Zemrane Charqia"
+          ]
+        },
+        {
+          "name": "Marrakech",
+          "communes": [
+            "Annakhil",
+            "Gueliz",
+            "Marrakech-Médina",
+            "Ménara",
+            "Sidi Youssef Ben Ali",
+            "Ouahat Sidi Brahim",
+            "Harbil",
+            "Agafay",
+            "Loudaya",
+            "Sid Zouine",
+            "Saada",
+            "Tassoultante"
+          ]
+        },
+        {
+          "name": "Chichaoua",
+          "communes": [
+            "Chichaoua",
+            "Imintanoute",
+            "Ait Hadi",
+            "Lamzoudia",
+            "Sid L'Mokhtar",
+            "Sidi Bouzid Arragragui",
+            "Douirane",
+            "Majjat",
+            "M'Zouda",
+            "Taouloukoult"
+          ]
+        },
+        {
+          "name": "Al Haouz",
+          "communes": [
+            "Ait Ourir",
+            "Amizmiz",
+            "Tahannaout",
+            "Ghmate",
+            "Sidi Abdallah Ghiat",
+            "Asni",
+            "Ourika",
+            "Tameslohte",
+            "Touama"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Souss-Massa",
+      "directions": [
+        {
+          "name": "Agadir-Ida Ou Tanane",
+          "communes": ["Agadir", "Drargua", "Aourir", "Tamri"]
+        },
+        {
+          "name": "Tiznit",
+          "communes": [
+            "Tafraout",
+            "Tiznit",
+            "Anzi",
+            "Tighmi",
+            "Ait Ouafqa",
+            "Arbaa Sahel",
+            "Bounaamane",
+            "El Maader El Kabir",
+            "Reggada",
+            "Tnine Aglou"
+          ]
+        },
+        {
+          "name": "Tata",
+          "communes": [
+            "Akka",
+            "Fam El Hisn",
+            "Foum Zguid",
+            "Tata",
+            "Kasbat Sidi Abdellah Ben M'Bar",
+            "Tamanarte",
+            "Akka Ighane",
+            "Allougoum",
+            "Tissint",
+            "Adis",
+            "Issafen"
+          ]
+        },
+        {
+          "name": "Taroudant",
+          "communes": [
+            "Ait Iaaza",
+            "Aoulouz",
+            "El Guerdane",
+            "Irherm",
+            "Oulad Berhil",
+            "Oulad Teima",
+            "Taliouine",
+            "Taroudannt",
+            "Arazane",
+            "Lamhara",
+            "Oulad Aissa",
+            "Tafingoult",
+            "Tinzart",
+            "El Koudia El Beida",
+            "Issen",
+            "Lagfifat",
+            "Machraa El Ain",
+            "Sidi Ahmed Ou Amar",
+            "Sidi Moussa Lhamri",
+            "Assaki",
+            "Sidi Hsaine",
+            "Ouzioua",
+            "Ahmar Laglalcha"
+          ]
+        },
+        {
+          "name": "Inezgane-Aït Melloul",
+          "communes": [
+            "Ait Melloul",
+            "Dcheira El Jihadia",
+            "Inezgane",
+            "Lqliaa",
+            "Oulad Dahou",
+            "Temsia"
+          ]
+        },
+        {
+          "name": "Chtouka Aït Baha",
+          "communes": [
+            "Ait Baha",
+            "Biougra",
+            "Ait Milk",
+            "Belfaa",
+            "Inchaden",
+            "Massa",
+            "Sidi Ouassay",
+            "Ait Amira",
+            "Imi Mqourn",
+            "Ouad Essafa",
+            "Sidi Bibi"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Guelmim-Oued Noun",
+      "directions": [
+        {
+          "name": "Tan-Tan",
+          "communes": ["Tan Tan", "El Ouatia"]
+        },
+        {
+          "name": "Assa-Zag",
+          "communes": ["Assa", "Zag", "Aouint Lahna", "Aouint Yghomane"]
+        },
+        {
+          "name": "Guelmim",
+          "communes": [
+            "Bouizakarne",
+            "Guelmim",
+            "Aday",
+            "Ifrane Atlas Saghir",
+            "Tagante",
+            "Taghjijt",
+            "Timoulay",
+            "Aferkat",
+            "Asrir",
+            "Fask",
+            "Laqsabi Tagoust"
+          ]
+        },
+        {
+          "name": "Sidi Ifni",
+          "communes": [
+            "Lakhsas",
+            "Sidi Ifni",
+            "Mesti",
+            "Mirleft",
+            "Ait Erkha",
+            "Sidi H'Saine Ou Ali",
+            "Tighirt"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Laâyoune-Sakia El Hamra",
+      "directions": [
+        {
+          "name": "Es-Semara",
+          "communes": ["Es-semara"]
+        },
+        {
+          "name": "Laâyoune",
+          "communes": ["El Marsa", "Laayoune"]
+        },
+        {
+          "name": "Tarfaya",
+          "communes": ["Tarfaya", "Akhfennir"]
+        },
+        {
+          "name": "Boujdour",
+          "communes": ["Boujdour"]
+        }
+      ]
+    },
+    {
+      "name": "Dakhla-Oued Ed-Dahab",
+      "directions": [
+        {
+          "name": "Aousserd",
+          "communes": ["Bir Gandouz"]
+        },
+        {
+          "name": "Oued Ed-Dahab",
+          "communes": ["Dakhla"]
+        }
+      ]
+    }
+  ]
+}
