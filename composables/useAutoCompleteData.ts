@@ -1,10 +1,12 @@
 import type { AutoCompleteCompleteEvent } from "primevue/autocomplete";
-import type { Region } from "~/types/supabase.typs";
 
-export function useAutoCompleteData(table: string, filterKey?: string) {
+export function useAutoCompleteData<T extends { name: string }>(
+  table: string,
+  filterKey?: string,
+) {
   const supabase = useSupabaseClient();
-  const items = ref<Region[]>([]);
-  const data = ref<Region[]>([]);
+  const items = ref<T[]>([]);
+  const data = ref<T[]>([]);
   const filterValue = ref<number | null>(null);
 
   const fetchData = async () => {

@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { AutoComplete, Button } from "primevue";
+import type { Province, Region, Commune } from "~/types/supabase.typs";
 
 const items = ref<string[]>([]);
 const filterVisible = ref(false);
@@ -23,21 +24,21 @@ const {
   fetchData,
   search: searchRegions,
   items: regionItems,
-} = useAutoCompleteData("regions");
+} = useAutoCompleteData<Region>("regions");
 
 const {
   fetchData: fetchProvinces,
   search: searchProvinces,
   items: provinceItems,
   setFilter: setProvinceFilter,
-} = useAutoCompleteData("provinces", "regionId");
+} = useAutoCompleteData<Province>("provinces", "regionId");
 
 const {
   fetchData: fetchCommunes,
   search: searchCommune,
   items: communeItems,
   setFilter: setCommuneFilter,
-} = useAutoCompleteData("communes", "provinceId");
+} = useAutoCompleteData<Commune>("communes", "provinceId");
 
 onMounted(async () => {
   await fetchData();
