@@ -5,16 +5,58 @@ const items = ref<string[]>([]);
 const filterVisible = ref(false);
 
 const state = reactive({
-  currSchool: "",
-  currCity: "",
   currRegion: "",
-  distSchool: "",
-  distCity: "",
+  currProvince: "",
+  currCommune: "",
+  currSchool: "",
   distRegion: "",
+  distProvince: "",
+  distCommune: "",
+  distSchool: "",
 });
 
 const search = (event: any) => {
   items.value = [...Array(10).keys()].map((item) => event.query + "-" + item);
+};
+
+const {
+  fetchData,
+  search: searchRegions,
+  items: regionItems,
+} = useAutoCompleteData("regions");
+
+const {
+  fetchData: fetchProvinces,
+  search: searchProvinces,
+  items: provinceItems,
+  setFilter: setProvinceFilter,
+} = useAutoCompleteData("provinces", "regionId");
+
+const {
+  fetchData: fetchCommunes,
+  search: searchCommune,
+  items: communeItems,
+  setFilter: setCommuneFilter,
+} = useAutoCompleteData("communes", "provinceId");
+
+onMounted(async () => {
+  await fetchData();
+});
+
+const onRegionSelect = () => {
+  const selectedRegion = regionItems.value.find(
+    (r) => r.name === state.currRegion,
+  );
+  setProvinceFilter(selectedRegion?.id || null);
+  fetchProvinces();
+};
+
+const onProvinceSelect = () => {
+  const selectedProvince = provinceItems.value.find(
+    (r) => r.name === state.currProvince,
+  );
+  setCommuneFilter(selectedProvince?.id || null);
+  fetchCommunes();
 };
 </script>
 
@@ -49,45 +91,56 @@ const search = (event: any) => {
       <div class="space-y-4">
         <label>حاليا</label>
         <AutoComplete
-          v-model="state.distRegion"
-          :suggestions="items"
-          @complete="search"
+          v-model="state.currRegion"
+          :suggestions="regionItems"
+          @complete="searchRegions"
+          @item-select="onRegionSelect"
+          option-label="name"
           placeholder="الجهة"
         />
         <AutoComplete
-          v-model="state.distCity"
-          :suggestions="items"
-          @complete="search"
-          placeholder="المدينة"
+          v-model="state.currProvince"
+          :suggestions="provinceItems"
+          @complete="searchProvinces"
+          @item-select="onProvinceSelect"
+          option-label="name"
+          placeholder="المديرية"
         />
         <AutoComplete
-          v-model="state.distSchool"
-          :suggestions="items"
-          @complete="search"
-          placeholder="المدرسة"
+          v-model="state.currCommune"
+          :suggestions="communeItems"
+          @complete="searchCommune"
+          option-label="name"
+          placeholder="الجماعة"
         />
+        <InputText v-model="state.currSchool" placeholder="المدرسة" />
       </div>
       <div class="space-y-4">
         <label>الوجهة</label>
         <AutoComplete
           v-model="state.distRegion"
-          :suggestions="items"
-          @complete="search"
+          :suggestions="regionItems"
+          @complete="searchRegions"
+          option-label="name"
           placeholder="الجهة"
         />
         <AutoComplete
-          v-model="state.distCity"
-          :suggestions="items"
-          @complete="search"
-          placeholder="المدينة"
+          v-model="state.distProvince"
+          :suggestions="provinceItems"
+          @complete="searchProvinces"
+          option-label="name"
+          placeholder="المديرية"
         />
         <AutoComplete
-          v-model="state.distSchool"
-          :suggestions="items"
-          @complete="search"
-          placeholder="المدرسة"
+          v-model="state.distCommune"
+          :suggestions="communeItems"
+          @complete="searchCommune"
+          option-label="name"
+          placeholder="الجماعة"
         />
+        <InputText v-model="state.distSchool" placeholder="المدرسة" />
       </div>
+      <Button label="تطبيق" />
     </div>
   </Drawer>
 </template>
