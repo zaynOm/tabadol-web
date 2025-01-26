@@ -2,7 +2,6 @@
 import { AutoComplete, Button } from "primevue";
 import type { Province, Region, Commune } from "~/types/supabase.typs";
 
-const items = ref<string[]>([]);
 const filterVisible = ref(false);
 
 const state = reactive({
@@ -15,10 +14,6 @@ const state = reactive({
   distCommune: "",
   distSchool: "",
 });
-
-const search = (event: any) => {
-  items.value = [...Array(10).keys()].map((item) => event.query + "-" + item);
-};
 
 const {
   fetchData,
@@ -70,8 +65,6 @@ const onProvinceSelect = () => {
         <div class="flex justify-center gap-4">
           <AutoComplete
             v-model="state.currSchool"
-            :suggestions="items"
-            @complete="search"
             placeholder="إسم المدرسة"
             class="flex-1"
             input-class="flex-1"
